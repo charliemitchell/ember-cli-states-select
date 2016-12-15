@@ -1,12 +1,12 @@
 {{#x-select value=value id=id  onblur="onBlur"  class=class}}
-{{x-option}}
-{{#each stateList as |state|}}
-	{{#x-option value=state.code}}
-		{{#if onlyDisplayStateCode}}
-				{{state.code}}
-			{{else}}
-				{{state.name}}
-		{{/if}}
+	{{#x-option}}
+		{{placeholder}}
 	{{/x-option}}
+
+	{{#each stateList as |state|}}
+		{{#x-option value=state.code}}
+			{{state.name}}
+		{{/x-option}}
 	{{/each}}
+
 {{/x-select}}
