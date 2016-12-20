@@ -26,10 +26,6 @@ export default Ember.Component.extend({
 			code: "AK"
 		},
 		{
-			name: "American Samoa",
-			code: "AS"
-		},
-		{
 			name: "Arizona",
 			code: "AZ"
 		},
@@ -58,20 +54,12 @@ export default Ember.Component.extend({
 			code: "DC"
 		},
 		{
-			name: "Federated States Of Micronesia",
-			code: "FM"
-		},
-		{
 			name: "Florida",
 			code: "FL"
 		},
 		{
 			name: "Georgia",
 			code: "GA"
-		},
-		{
-			name: "Guam",
-			code: "GU"
 		},
 		{
 			name: "Hawaii",
@@ -108,10 +96,6 @@ export default Ember.Component.extend({
 		{
 			name: "Maine",
 			code: "ME"
-		},
-		{
-			name: "Marshall Islands",
-			code: "MH"
 		},
 		{
 			name: "Maryland",
@@ -174,10 +158,6 @@ export default Ember.Component.extend({
 			code: "ND"
 		},
 		{
-			name: "Northern Mariana Islands",
-			code: "MP"
-		},
-		{
 			name: "Ohio",
 			code: "OH"
 		},
@@ -190,16 +170,8 @@ export default Ember.Component.extend({
 			code: "OR"
 		},
 		{
-			name: "Palau",
-			code: "PW"
-		},
-		{
 			name: "Pennsylvania",
 			code: "PA"
-		},
-		{
-			name: "Puerto Rico",
-			code: "PR"
 		},
 		{
 			name: "Rhode Island",
@@ -228,10 +200,6 @@ export default Ember.Component.extend({
 		{
 			name: "Vermont",
 			code: "VT"
-		},
-		{
-			name: "Virgin Islands",
-			code: "VI"
 		},
 		{
 			name: "Virginia",
